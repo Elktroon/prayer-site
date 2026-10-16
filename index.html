@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d3b2e" />
+  <title>رفيقا المحراب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="bismillah">بسم الله الرحمن الرحيم</div>
+    <h1>اسره بترضي ربنا</h1>
+    <p class="sub">بنساعد بعض عشان يتقفل علينا باب الحلال </p>
+    <div class="who" id="who"></div>
+  </header>
+
+  <main>
+    <section class="verse" id="verse"></section>
+    <section id="board" class="board"></section>
+    <section id="profile"></section>
+    <section id="gallery"></section>
+  </main>
+
+  <!-- نافذة تسجيل الصلاة -->
+  <div class="overlay hidden" id="modal"></div>
+  <!-- عرض الصورة بالحجم الكبير -->
+  <div class="overlay hidden" id="lightbox"></div>
+  <!-- اختيار الشخص -->
+  <div class="overlay hidden" id="chooser"></div>
+  <div class="toast" id="toast"></div>
+  <div id="confetti"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
